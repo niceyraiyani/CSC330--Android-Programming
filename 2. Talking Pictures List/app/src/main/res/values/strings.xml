@@ -1,0 +1,12 @@
+<resources>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+    <string name="no">No description yet</string>
+    <string name="describeit">Describe it!</string>
+    <string name="nothing">I have nothing to say</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="app_name">Talking Picture List</string>
+    <string name="filename">Description.mp4</string>
+
+</resources>

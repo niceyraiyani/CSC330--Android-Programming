@@ -1,0 +1,9 @@
+<resources>
+    <integer name="time_between_location_updates_ms">2000</integer>
+    <dimen name="list_title_size">25sp</dimen>
+    <dimen name="list_timestamp_size">15sp</dimen>
+    <dimen name="list_image_size">50dp</dimen>
+    <dimen name="list_image_margin">3dp</dimen>
+    <dimen name="edit_image_size">250dp</dimen>
+    <dimen name="edit_image_margin">10dp</dimen>
+</resources>

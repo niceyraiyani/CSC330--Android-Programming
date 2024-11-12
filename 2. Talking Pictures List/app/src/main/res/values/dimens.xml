@@ -1,0 +1,9 @@
+
+<resources>
+    <dimen name="dialogpicture">20dp</dimen>
+    <dimen name="controlbutton">120dp</dimen>
+    <integer name="pause">200</integer>
+    <dimen name="imageheight">320dp</dimen>
+    <dimen name="imagewidth">320dp</dimen>
+
+</resources>

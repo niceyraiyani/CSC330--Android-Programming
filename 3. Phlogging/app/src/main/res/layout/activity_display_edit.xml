@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/edit_image"
+            android:layout_width="150dp"
+            android:layout_weight="4"
+            android:layout_height="@dimen/edit_image_size"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="@dimen/edit_image_margin">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/edit_camera"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/camera"
+                android:onClick="editClickHandler">
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/edit_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="">
+    </TextView>
+    <TextView
+        android:id="@+id/edit_latlon_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""> </TextView>
+    <TextView
+        android:id="@+id/edit_text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""> </TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/edit_save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:onClick="editClickHandler">
+        </Button>
+        <Button
+            android:id="@+id/edit_delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:onClick="editClickHandler">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

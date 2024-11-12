@@ -1,0 +1,16 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/make_phlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plog"
+        android:onClick="myClickHandler"> </Button>
+    <ListView android:id="@+id/phlog_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> </ListView>
+</LinearLayout>
